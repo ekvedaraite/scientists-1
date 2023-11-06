@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f5f5f5;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+    object-position: left;
+    max-width: 900px;
+}
+
+article {
+    display: inline-block;
+    padding: 20px;
+    background: white;
+    margin-bottom: 20px;
+    max-width: 100%;
+    border-top: 5px solid #0974b3;
+    line-height: 18px;
+}
+
+h1 {
+    color: #0974b3;
+}
+
+div {
+    color: #666;
+    margin-top: 7px;
+}
+
+img {
+    float: left;
+    max-width: 150px;
+    max-height: 220px;
+    object-fit: contain;
+}
+
+p {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.newton {
+    min-height: 280px;
+}
+
+.newton img {
+    padding: 10px 20px 15px 3px;
+}
+
+.einstein {
+    max-width: 48%;
+    min-height: 380px;
+    padding-right: 10px;
+}
+
+.einstein img {
+    padding: 10px 20px 15px 1px;
+}
+
+.tesla {
+    max-width: 48%;
+    min-height: 380px;
+    float: right;
+    position: relative;
+    padding-right: 11px;
+}
+
+.tesla img {
+    padding: 10px 20px 22px 1px;
+}
